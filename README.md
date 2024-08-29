@@ -1,8 +1,4 @@
-
-
-Tabii, aşağıda Python ile hazırladığınız FileConverter projesi için uygun bir README.md dosyası örneği bulabilirsiniz. Bu README dosyası, projenizi GitHub üzerinde paylaşmak ve başkalarının projeyi anlamasına yardımcı olmak için gerekli temel bilgileri içerir.
-
-FileConverter
+<b>FileConverter</b>
 FileConverter is a Python project designed to convert files between different formats. It supports a variety of file types and offers an easy-to-use interface for batch file conversion.
 
 Features
