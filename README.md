@@ -14,7 +14,6 @@ FileConverter is a Java project designed to convert files between different form
 To use FileConverter, clone the repository and compile the project using Maven:
 
 ```bash
-bashKodu kopyala
 git clone https://github.com/yourusername/FileConverter.git
 cd FileConverter
 mvn clean install
@@ -26,7 +25,6 @@ mvn clean install
 After compiling the project, you can start converting files using the following command:
 
 ```bash
-bashKodu kopyala
 java -jar FileConverter.jar --input <input_file> --output <output_format>
 
 ```
@@ -36,7 +34,6 @@ java -jar FileConverter.jar --input <input_file> --output <output_format>
 To convert a PDF file to a DOCX file:
 
 ```bash
-bashKodu kopyala
 java -jar FileConverter.jar --input document.pdf --output docx
 
 ```
