@@ -49,14 +49,4 @@ java -jar FileConverter.jar --input document.pdf --output docx
 - **Images**: `.png`, `.jpg`, `.jpeg`
 - **Others**: More formats can be added as needed.
 
-## Contributing
 
-Contributions are welcome! If you have ideas for improvements or find any bugs, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-## Contact
-
-For any inquiries or issues, please contact yourname@example.com.
