@@ -1,8 +1,6 @@
 # FileConverter
 
-# FileConverter
-
-FileConverter is a Python project designed to convert files between different formats. It supports a variety of file types and offers an easy-to-use interface for batch file conversion.
+FileConverter is a Java project designed to convert files between different formats. It supports a variety of file types and offers an easy-to-use interface for batch file conversion.
 
 ## Features
 
@@ -13,28 +11,34 @@ FileConverter is a Python project designed to convert files between different fo
 
 ## Installation
 
-To use FileConverter, clone the repository and install the necessary dependencies:
+To use FileConverter, clone the repository and compile the project using Maven:
 
 ```bash
+bashKodu kopyala
 git clone https://github.com/yourusername/FileConverter.git
 cd FileConverter
-pip install -r requirements.txt
+mvn clean install
+
 ```
 
 ## Usage
 
-- After installation, you can start converting files using the following command:
+After compiling the project, you can start converting files using the following command:
 
 ```bash
-python file_converter.py --input <input_file> --output <output_format>
+bashKodu kopyala
+java -jar FileConverter.jar --input <input_file> --output <output_format>
+
 ```
 
 ### Example
 
-- To convert a PDF file to a DOCX file:
+To convert a PDF file to a DOCX file:
 
 ```bash
-python file_converter.py --input document.pdf --output docx
+bashKodu kopyala
+java -jar FileConverter.jar --input document.pdf --output docx
+
 ```
 
 ### Options
@@ -51,3 +55,11 @@ python file_converter.py --input document.pdf --output docx
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements or find any bugs, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contact
+
+For any inquiries or issues, please contact yourname@example.com.
